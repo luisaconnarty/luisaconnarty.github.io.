@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button to Reveal Content</title>
+    <style>
+        #hidden-content {
+            display: none; /* Initially hide the content */
+        }
+        #hidden-content2 {
+            display: none; /* Initially hide the content */
+        }
+    </style>
+</head>
+<body>
+
+<button id="reveal-button">Click to Reveal</button>
+
+<p id="hidden-content">This is the hidden content. It will be revealed when you click the button.</p>
+
+<script>
+    // Get references to the button and hidden content
+    var button = document.getElementById('reveal-button');
+    var hiddenContent = document.getElementById('hidden-content');
+
+    // Add a click event listener to the button
+    button.addEventListener('click', function() {
+        if (hiddenContent.style.display === 'none') {
+            hiddenContent.style.display = 'block'; // Show the hidden content
+        } else {
+            hiddenContent.style.display = 'none'; // Hide the content when clicked again
+        }
+    });
+</script>
+
+	<button class="button1">	<a href="week_2_il.html">IL Activity</a> </button>
+	
+		<button class="button2">	<a href="week_2_lab.html">Lab Task</a> </button>
+		
+		
+</body>
+</html>
