@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link rel="stylesheet" href="css/week10il.css">
+
+<title>WEEK 10</title>
+
+</head>
+
+
+<body>
+
+<!----- TITLE -------->
+
+	<div class="header">
+		<h1>WEEK 10 ACTIVITY</h1>
+
+	</div>
+	
+	
+	<div id="subheading">
+	<h2>Task: Evaluate Websites Against Accessibility Standards and Reflect Your Own Practices</h2>
+	</div>
+	
+	
+<!----- EVALUATION -------->	
+	<section class="evaluation">
+	<div id="evaluationheader">
+	
+	<h3>Evaluation<h3>
+	</div>
+	
+	<p>For this task I decided to revisit <a href="https://www.supershine.design">SuperShine</a>, as previously discussed in <a href="week_8_il.html">Week 8's Activity</a> evaluating sound on websites.</p>
+	
+	<p>In considering its wide variety of multimedia's used throughout the web page, I thought this web site would be fitting as a source of analysis.</p> 
+	
+	<p>Before giving my own analysis of the website in terms of Accessibility, I used different evaluation tools available online that analyse and assess a website's accessibility standards.</p>
+	
+	<p>The accessibility audit checklist is a list of factors a website must uphold in order to successfully comply to accessibility standards. All accessibility evaluation tools I used  evaluate a website's accessibility with reference to these <a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines (WCAG) standards</a>.</p> 
+
+
+
+<!----- tool 1 -------->
+<div id="tool1">
+
+<p><b><u>Tool 1: <a href="https://wave.webaim.org">WAVE Web Evaluation Tool</a></u></b></p>
+
+<div id="img1">
+	<img src="images/week10_wavesummary.jpg" alt="Evaluation summary displaying 3 eroors, 5 contrast errors, 10 alerts and 101 features" height="400">
+</div>
+
+	<p>This was the summary I received in WAVE's evaluation of Supershine. I will discuss the errors, alerts, and features WAVE flagged as impeding accessibility standards. Discussion of contrast errors will come in the second Website I used for analysis.</p>
+
+<br></br>
+
+	<p> To begin, WAVE noticed three errors, The page is missing two heading labels, and the language specification of the document is not included in the code. </p>
+
+	<p>Principle 3 of the Accessibility guidance is to ensure information and the operation of user interface is understandable. In not specifying the language of the document, the web page fails Guideline 3.1.1 Language of Page: "The language of the page is identified using the lang attribute (e.g., <html lang="en">).". This causes the potential of misunderstanding between screen readers providing correct translation of what is seen on the page. Screen readers use a language library to provide the correct accent and pronunciation of content assigned. If the language of the HTML is not specified then it uses its default language, which may not be suited to said website.</p>
+
+	<p>The exclusion of a header defies principle 2.4.2 Page title, specifying "The web page has a descriptive and informative page title.". A clear level heading creates a more operable interface navigation. </p>
+
+
+	<p>Additionally, there were ten alerts. This included 1 suspicious link text, 3 very small text and 6 HTML video or Audio uses. </p>
+
+	<p>Regarding the suspicious link. WCAG standards emphasise the importance of contextualising the purpose of a link. So too, the user is not met with any surprises when they come to clicking links on the page. Principle 2.4.9 Link Purpose (Link Only) states "The purpose of each link (or image button or image map hotspot) can be determined from the link text alone.". Meaning the website should always make clear the purpose of a link. </p>
+
+<div id="img2">
+<img src="images/week10_linked.jpg" alt="screenshor from website, underlining links" height="400">
+</div>	
+	
+	<p> All 3 buttons underlines in red show different links, progressing the story or rerouting the user's journey on the page. </p>
+
+	<p>WAVE flagged the first "click here" link as suspicious. Although the location of where the link will take you is unknown, the context surrounding the link clearly tells the user what to expect if they were to click it. So too, I would argue this is an accessible link.</p> 
+	
+	<p>The very small text alerts do not abide with principle 1.4.4 Resize text regarding a distinguishable separation of the foreground from the background. "The page is readable and functional when the page is zoomed to 200%. NOTE: 1.4.10 (below) introduces additional requirements for zoomed content". This guideline is for purposes of making the text readable from all different contexts. In having text too small, it becomes indistinguishable and redundant in its purpose.</p>
+	
+	
+	
+	<p>The alert of the 101 features refers to 101 cases of null or empty alternative texts for the media supplied on this website. Guideline 1.1.1 Non-text Content states the necessity for "Images, image buttons, and image map hot spots have appropriate, equivalent alternative text.". Screen readers will read the alternative text related to the image, in place of seeing the actual visual product. Similar to not specifying the language of the text, not specifying the alternative text in detail restricts the understanding for people using screen readers. This results in the unfair exclusion of users of the website with visual impairments. Therefore, the occurance of this in 101 cases, on a web page such as this that is predominantly narrative led by images imposes a serious problem for users who use screen readers.</p>
+	
+	
+	
+</div>	
+<br></br>
+
+<!----- tool 2 -------->
+<div id="tool2">
+
+<p><b><u>Tool 2: <a href="https://webaim.org/resources/contrastchecker/?fcolor=0000FF&bcolor=FFFFFF">WebAIM Contrast Checker</a> and <a href="https://webaim.org/resources/linkcontrastchecker/?fcolor=0000FF&bcolor=FFFFFF">WebAIM text, background, and link checker</a></u></b></p>	
+	
+	<p>Contrast holds significance in multiple aspects regarding accessibility. The contrast of ratio with text to images is important in achieving accessibility e.g. guideline 1.4.3 "text and images of the text have a contrast ratio of at least 4:5:1". Or guideline 1.4.6 "Text and images of text have a contrast ratio of at least 7:1". These both determine a successful balance of text and image.</p>
+	
+	<p>However, the contrast of colour is very important for someone who has colour deficits. WebAIM allows you to check the contrast of the foreground colours with the background colours and how accessible they are to a user. </p>
+	
+	<p>The first contrast ratio I gathered was 1:1. With the foreground  #1D1D1D to the background #1D1D1D. My result from the contrast checker was as follows:  </p>
+	
+<div id="img3">	
+<img src="images/week10_contrastchecker.jpg" alt="screenshor of contrast checker showing it fails WCAG contrast guidelines" height="400">
+</div>	
+	
+	<p>It failed all WCAG compliance test. Guideline 1.4.11 surrounding Non-text Contrast states  "A contrast ratio of at least 3:1 is present for differentiating graphical objects". With a 1:1 contrast, the text/ graphical objects are near impossible to differentiate or distinguish from one another. </p>
+	
+	<br></br>
+	
+	<p>The second ratio result was 1.48:1. With the foreground #FFFFFF to the background #FCCF3D: </p>
+
+<div id="img4">	
+<img src="images/week10_constrastchecker1.jpg" alt="screenshor of contrast checker showing it fails WCAG contrast guidelines" height="400">	
+</div>	
+	
+	<p>This ratio has improved, significantly in the fact that you can distinguish the text from the background. However, it is still not reaching the 3:1 ratio needed to pass the accessibility test. </p>
+	
+	<p>Overall in accessing this website I found no difficulty in reading and understanding the text on screen, however regarding people who have visual impairments or colour deficits, the page is inaccessible. It is important to have clear colour contrasts to ensure that the text will stand out and is easy to read. Additionally, Successful colour contrast can not only improve legibility but it can draw attention to key features and create visual interest. The benefits become redundant is the contrast is illegible to a user.</p>
+	
+	
+	
+</div>
+<br></br>
+
+<!----- tool 3 -------->
+<div id="tool3">
+
+<p><b><u>Tool 3: <a href="https://www.webfx.com/tools/read-able/">Readability Test Tool</a></u></b></p>
+	
+	<p>	I used a readability test which determines how easily interpretable a website is. SuperShine scored 66.1 in the readability test results. Meaning "it should be easily understood by 12 to 13 year olds":  </p>
+	
+
+<div id="img5">	
+<img src="images/week10_readabilitytest.jpg" alt="screenshor showing readability test results. Stating supershine scored 66.1 out of 100." height="200">	
+</div>	
+	
+	<p>Audience consideration is crucial in the reflection of results on this test. Anything below 60 is considered fairly difficult to read or worse. 60-70 is easily understood by young teens, and 70 upwards develops from fairly easy to easy to read.</p>
+	
+	<p>As a web page selling web developing tools, this website will not be appealing to the use of children. Therefore, its level of readability is sufficient. However, if a page is made for younger audiences it would be important to consider its readability levels.</p>
+	
+<div id="img6">
+<img src="images/week10_textstats.jpg" alt="screenshot showing readability text statistic results. Stating there are 210 sentences, 1375 words, 204 complex words, 14.83% complex words etc..." height="400">	  
+</div>	
+	
+	<p>From this data it is notable the websites use of short sentences, an effective tool in enhancing readability. However its higher use of complex words reduces the ability to comprehend, unless particularly complex words are supported by a source of explanation.</p>
+	
+	<p>This would comply with principle 3.1.5, focussing on the information of an interface being understandable. It states there should be "A more understandable alternative is provided for content that is more advanced than can be reasonably read by a person with roughly 9 years of primary education.". This suggestion implies it should cater to someone of the age of roughly 14 years old, so too scoring 60 or above is a sufficient level.</p>
+	
+	
+ 
+ </div>
+<br></br>
+
+<!----- overall -------->
+<div id="conc">
+
+<p><b><u>Overview</u></b></p>
+
+	<p>In critically assessing this website's use of multimedia, I have found multiple ways in which it has followed WCAG guidelines <b>successfully</b>, but also regards in which it has committed errors in attaining accessibility. The importance of accessibility is significant as of 2022 Users with disabilities would expect to encounter errors on 1 in every 21 home page elements with which they engage (WebAim). This causes consequential loss of audience and prejudice unfairly placed on disabled or impaired web users. The website's use of colour in the way that it does not use colour as a sole method of conveying or distinguishing visual elements (Guideline 1.4.1), however, some of its colour ration make text harder to distinguish, especially for those who are visually impaired. Its use of audio is effective as a mechanism is provided in the top corner to stop, pause of mute the audio, as specified in guideline 1.4.2 regarding audio control. Guideline 1.4.8 outlines visual representation, stating that text should stay withing defined borders and not require horizontal scrolling. The website efferently achieves this. Additionally, its use of multimedia is all predictable and appears in ways that are expected and successfully understandable. SO too, the web page adheres to guidelines 3.2.1-3.2.4, where there is a need for consistent focus, input, navigation and identification. </p>
+	
+	<p><b>However</b>,one thing I have found this website lacks attention to details in tailoring for users with disabilities. As discussed through the evaluation sites, the coding transcript is lacking in details that would aid a user who is using a screen reader. Additionally there is not help, or accessibility section of the page. This goes against guideline 3.3 that audits the requirement of input assistance to help users avoid mistakes or correct mistakes. In ignoring the detailing required in making a website more accessible, audiences are eliminated and in the case of this website, customers are lost.</p>
+	<p>An example, is interested, of where accessibility problems are efficiently addressed to users is <a href="https://www.gla.ac.uk/legal/accessibility/">the Glasgow University Web Accessibility Statement</a>.</p> 
+	
+	
+ </div>
+<br></br>	
+	
+	</section>
+	
+	
+	
+<!----- REFLECTION -------->	
+	
+	<section class="reflection">
+	<div id="reflectionheader">
+	
+	<h4>REFLECTION<h4>
+	
+	</div>
+	
+
+<p>For this section I will be first be reflecting on how my website portfolio design process has considered accessibility (task 2 IL) and then considering ways in which I could support accessibility in my future project in MAD(B). </p>
+
+<br></br>
+
+<p>Thus far in my website, there are ways in which I have subconsciously incorporated elements of accessibility that comply with WCAG guidelines. Examples include as follows: </p>
+	
+	<ul>
+	
+		<li>My use of tables throughout has been presented in effective manners, effectively displaying the information in a more comprehendible way, without losing its meaning. This aligns with Guideline 1.3.1 "Tables are used for tabular data and data cells are associated with their headers. Data table captions, if present, are associated to data tables.Text labels are associated with form inputs. Related form controls are grouped with field set/legend. ARIA labelling may be used when standard HTML is insufficient." Additionally, guideline 1.3.2 requires for a web pages reading and navigation order to be "logical and intuitive". With my web page being divided separately into each week's tasks, in order, I think that my website is successful in presenting an accessible navigation. </li>
+		<li>Guideline 1.4.7 Low or No Background Audio states "Audio with speech has no or very low background noise so the speech is easily distinguished". Regarding my audio portfolio in week 8. I made the subconscious decision to lower the background volume of my narrative audio. In this I have allowed for the audio to be more easily understood, and more accessible to users with harder hearing. Additionally, I have mechanisms that allow the user to play and stop the audio as they wish.</li>
+		<li>I have no links in my portfolio that are suspicious, and do not have context provided to inform you were it will take you. So overall, my website is successful in aspects of accessibility regarding operable control and navigation.</li>
+		
+	</ul>
+	
+	
+<p>However, I think many aspects need improving such as:</p>
+
+	<ul>
+	
+		<li>Clearer contrast in colours, in order to advance readability </li>
+		<li>Provide appropriate text alternative to all images, buttons etc </li>
+		<li> Remove any image that is presenting text, or format it in a more accessible way </li>
+		<li> Increase text spacing </li>
+		
+	</ul>
+	
+	
+	<br></br>
+	
+<p>In considering accessibility in my future project, out of intrigue I began by putting my website into two of the Accessibility test tools I used in part 1 of this week's task. The results were as follows.</p>
+
+ <div id="img7">
+	<img src="images/mywave.jpg" alt="screenshor showing my website's WAVE Accessibility test results. consisting of 1 error, 3 contrast errors and 5 alerts.'" height="400">
+</div>	
+	
+	<br></br>
+<div id="img8">	
+	<img src="images/myreadability.jpg" alt="screenshor showing my website's readability test results. Stating supershine scored 77.6 out of 100." height="200">	
+</div>		  
+
+	<p>Both these results showed I had few objective errors regarding my website's accessibility. The readability test shows my web page is readable to younger audiences.</p>
+	
+	<p>Though the structure and language of my actual web page will be different, this is good to consider when it comes to formatting my MAD(B) project as it will be <u> essential </u> that it is readable to people of that age as it is part of the audience I aim to appeal to.</p>
+	
+	<p>Additionally, not many errors were flagged up on the WAVE evaluation tool. The most concerning note it made was the lack of contrast in colour. This would be another thing I would have to consider when making my website.</p>
+	
+	<p>With the plan to use colour as the website is for younger audiences, and colour corresponds with children and have advantages in retaining attention.</p>
+	
+	<p>Overall in my MAD(B) project, I will have to thoroughly focus and consider the importance of detail in providing alternative media forms for users who may have health factors or preferences for certain ways of accessing multimedia's. Importantly, I will have to consider the alternatives for users who may be using screen readers to enhance <u> all </u> users experiences.</p>
+	
+	
+	</section>
+	
+	
+	
+	
+	
+<br></br> 
+
+
+	</div>
+	<!-- END OF MAIN SECTION OF PAGE -->
+	<hr>	
+	<!-- begin navigation menu -->
+	<footer>
+
+	<div id="overview">
+		<a href="week_10.html">Back</a>
+	</div>
+	
+	<div id="next">
+		<a href="week_10_lab.html">Next Page: Lab Task</a>
+	</div>
+	</footer>
+	<!-- end navigation menu -->
+</body>
+
+ 

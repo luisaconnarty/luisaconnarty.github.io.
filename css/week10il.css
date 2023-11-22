@@ -1,0 +1,109 @@
+body { 
+
+  height: 350vh;
+  margin: 100px 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2; 
+
+}
+
+/* Style title */
+
+.header
+		{
+
+  text-align: center;
+  font-size: 30px;
+  color: #333;
+  background-color:  #cd5c5c;
+  margin: 1px 250px;
+
+  }
+  
+#subheading {
+	 text-align: center;
+	 font-size: 25px;
+	text-align: center;
+	background-color:  #cd5c5c;
+}
+  
+/* Style Evaluation */
+
+  
+.evaluation
+		{
+  background-color: #cd5c5c;
+  color: #333;
+  font-size: 20px;
+
+  } 
+
+#evaluationheader {
+	 text-align: center;
+	 font-size: 35px;
+	text-align: center;
+}
+  
+  
+  
+/* Style Reflection */
+
+.reflection
+		{
+  background-color: #cd5c5c;
+  color: #333;
+  font-size: 20px;
+
+  
+  } 
+
+#reflectionheader {
+	 text-align: center;
+	 font-size: 35px;
+	 text-align: center;
+}
+
+
+
+/* Style Images */
+
+
+
+#img1 {
+	 text-align: center;
+}
+
+#img2 {
+	 text-align: center;
+}
+
+#img3 {
+	 text-align: center;
+}
+
+#img4 {
+	 text-align: center;
+}
+
+#img5 {
+	 text-align: center;
+}
+
+#img6 {
+	 text-align: center;
+}
+
+#img7 {
+	 text-align: center;
+}
+
+#img8 {
+	 text-align: center;
+}
+
+
+footer {
+	font-family: Arial, Helvetica, sans-serif;
+	 font-size: 20px;
+}
+

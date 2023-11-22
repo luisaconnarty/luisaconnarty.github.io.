@@ -4,7 +4,7 @@
 body {
 
   
-  height: 50vh
+  height: 10vh
   margin: 100px 100px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -12,7 +12,7 @@ body {
 
 
 body {
-	margin: 0px 100px;
+	margin: 0px 0px;
 }
 
 
@@ -39,16 +39,16 @@ body {
 
 .topnav a:hover {
   
-  background-color: #ADD8EC;
+  background-color: #75a3a3;
   color: black;
 }
 
 
 /* Style the content */
 .content {
-  background-color: #ADD8EC;
+  background-color: #75a3a3;
   padding: 10px;
-  height: 300px; 
+  height: 625px; 
   	text-align: center;
 	color: #f2f2f2;
 }
@@ -60,6 +60,7 @@ body {
 .footer {
   background-color: #333;
   padding: 10px;
+  height: 200px;
   color: #f2f2f2
 }
 
@@ -67,15 +68,15 @@ body {
 
 
 h1 {
-	font-size: 60px;
+	font-size: 100px;
 	}
 	
 p1 {
-	font-size: 30px;
+	font-size: 50px;
 	}
 	
 p2 {
-	font-size: 30px;
+	font-size: 50px;
 	}
 
 

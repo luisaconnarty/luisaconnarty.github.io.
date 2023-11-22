@@ -1,0 +1,51 @@
+body { 
+
+  height: 150vh;
+  margin: 100px 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff; 
+
+}
+
+
+
+/* Style title */
+
+.header
+		{
+
+  text-align: center;
+  font-size: 30px;
+  color: #333;
+  background-color:  #75a3a3;
+  margin: 1px 250px;
+
+  }
+  
+  
+  
+/* Style task 1 */
+
+  
+.task1
+		{
+  background-color: #75a3a3;
+  color: #333;
+  font-size: 20px;
+  text-align: center;
+  } 
+  
+  
+/* Style table */
+  
+  table, th, td {
+  border:1.5px solid #75a3a3;
+  background-color: #ffffff;
+}
+
+
+
+footer {
+	font-family: Arial, Helvetica, sans-serif;
+	 font-size: 20px;
+}

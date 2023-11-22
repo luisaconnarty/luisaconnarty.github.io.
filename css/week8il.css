@@ -1,0 +1,92 @@
+body { 
+
+  height: 350vh;
+  margin: 100px 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2; 
+
+}
+
+
+/* Style title */
+
+.header
+		{
+
+  text-align: center;
+  font-size: 30px;
+  color: #cd5c5c;
+
+  }
+  
+  
+/* Style task 1 */
+
+  
+.task1
+		{
+  background-color: #cd5c5c;
+  color: #333;
+  font-size: 25px;
+  } 
+
+#task1header {
+	 text-align: center;
+	 font-size: 25px;
+}
+
+#web1 {
+	 text-align: center;
+	 font-size: 25px;
+}
+
+#web2 {
+	 text-align: center;
+	 font-size: 25px;
+}
+
+#web3 {
+	 text-align: center;
+	 font-size: 25px;
+}
+
+
+/* Style task 2  */
+
+.task2
+		{
+  background-color: #cd5c5c;
+  color: #333;
+  font-size: 25px;
+  } 
+
+#task2header {
+	 text-align: center;
+	 font-size: 25px;
+}
+
+
+
+
+footer {
+	font-family: Arial, Helvetica, sans-serif;
+	 font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
